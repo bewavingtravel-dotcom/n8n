@@ -1,0 +1,4 @@
+FROM n8nio/n8n:latest
+# Fuseau horaire
+ENV GENERIC_TIMEZONE="Europe/Paris"
+EXPOSE 5678
